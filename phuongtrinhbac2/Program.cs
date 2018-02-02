@@ -24,7 +24,9 @@ namespace phuongtrinhbac2
             }
             else
             {
-                //.....
+                double x1 = (-b + Math.Sqrt(del)) / (2 * a);
+                double x2 = (-b - Math.Sqrt(del)) / (2 * a);
+                Console.WriteLine("Phuong trinh co 2 nghiem: x1={0}, x2={1}", x1, x2);
             }
         }
     }
